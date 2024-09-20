@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Multiple Files</title>
+</head>
+<body>
+    <h1>Upload Multiple Files</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="files[]" multiple>
+        <input type="submit" value="Upload">
+    </form>
+    <a href="/download_csv">download</a>
+</body>
+</html>
